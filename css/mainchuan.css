@@ -1,0 +1,23 @@
+.row{
+    margin-left: -15;
+    margin-right: -15;
+}
+.row:after{
+        content: '';
+        display: block;
+        clear: both;
+}
+div[class^='col-']{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    33.333%;
+}
+.col-6{
+    width: 50%;
+}
